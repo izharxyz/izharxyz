@@ -9,7 +9,6 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=izharxyz&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=merko&locale=en&hide_border=true&custom_title=Stats" height="169" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=izharxyz&locale=en&mode=daily&theme=merko&hide_border=true&border_radius=5" height="169" alt="streak graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=izharxyz&theme=chartreuse-dark&radius=10&area=true&hide_border=false&custom_title=Contribution%20Graph&hide_title=false" height="250" alt="activity-graph graph"  />
 </div>
 
 ###
