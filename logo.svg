@@ -1,0 +1,56 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#030712" />
+
+  <!-- Definitions -->
+  <defs>
+    <!-- Star Animation -->
+    <circle id="star" cx="0" cy="0" r="2" fill="#9333ea">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Logo Gradient Styles -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="1" />
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="1" />
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Star Background -->
+  <g id="starField">
+    <use href="#star" x="200" y="100" />
+    <use href="#star" x="800" y="500" />
+    <use href="#star" x="1500" y="700" />
+    <use href="#star" x="1200" y="300" />
+    <use href="#star" x="600" y="800" />
+    <use href="#star" x="1600" y="200" />
+    <use href="#star" x="400" y="400" />
+    <use href="#star" x="1800" y="900" />
+    <use href="#star" x="300" y="900" />
+    <use href="#star" x="1000" y="100" />
+    <use href="#star" x="1400" y="800" />
+    <use href="#star" x="1700" y="300" />
+    <use href="#star" x="200" y="700" />
+  </g>
+
+  <!-- Logo Centered -->
+  <g id="logo" transform="translate(960,540)" opacity="0">
+    <!-- Hexagon Border with 25px Stroke -->
+    <polygon points="0,-250 216.5,-125 216.5,125 0,250 -216.5,125 -216.5,-125" fill="transparent"
+      stroke="url(#borderGradient)" stroke-width="25" />
+
+    <!-- "IZ" Text - Bold and Plain, Centered -->
+    <text x="0" y="75" text-anchor="middle" font-size="225" font-weight="bold" fill="url(#textGradient)"
+      font-family="sans-serif">
+      IZ
+    </text>
+
+    <!-- Fade and Scale Animation -->
+    <animateTransform attributeName="transform" type="scale" from="0" to="1" dur="1.5s" fill="freeze" additive="sum" />
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze" />
+  </g>
+</svg>
