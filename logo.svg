@@ -5,7 +5,19 @@
   <!-- Definitions -->
   <defs>
     <!-- Star Animation -->
-    <circle id="star" cx="0" cy="0" r="2" fill="#9333ea">
+    <circle id="star-1" cx="0" cy="0" r="1" fill="#9333ea">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" />
+    </circle>
+
+    <circle id="star-2" cx="0" cy="0" r="2" fill="#9333ea">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <circle id="star-3" cx="0" cy="0" r="3" fill="#9333ea">
+      <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite" />
+    </circle>
+
+    <circle id="star-4" cx="0" cy="0" r="4" fill="#9333ea">
       <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
     </circle>
 
@@ -22,19 +34,27 @@
 
   <!-- Star Background -->
   <g id="starField">
-    <use href="#star" x="200" y="100" />
-    <use href="#star" x="800" y="500" />
-    <use href="#star" x="1500" y="700" />
-    <use href="#star" x="1200" y="300" />
-    <use href="#star" x="600" y="800" />
-    <use href="#star" x="1600" y="200" />
-    <use href="#star" x="400" y="400" />
-    <use href="#star" x="1800" y="900" />
-    <use href="#star" x="300" y="900" />
-    <use href="#star" x="1000" y="100" />
-    <use href="#star" x="1400" y="800" />
-    <use href="#star" x="1700" y="300" />
-    <use href="#star" x="200" y="700" />
+    <use href="#star-2" x="200" y="100" />
+    <use href="#star-3" x="800" y="500" />
+    <use href="#star-1" x="1500" y="700" />
+    <use href="#star-2" x="1200" y="300" />
+    <use href="#star-3" x="600" y="800" />
+    <use href="#star-1" x="1600" y="200" />
+    <use href="#star-2" x="400" y="400" />
+    <use href="#star-1" x="1800" y="900" />
+    <use href="#star-3" x="300" y="900" />
+    <use href="#star-2" x="1000" y="100" />
+    <use href="#star-1" x="1400" y="800" />
+    <use href="#star-4" x="1700" y="300" />
+    <use href="#star-1" x="200" y="700" />
+    <use href="#star-3" x="800" y="300" />
+    <use href="#star-2" x="1500" y="900" />
+    <use href="#star-4" x="1200" y="500" />
+    <use href="#star-1" x="600" y="100" />
+    <use href="#star-2" x="1600" y="800" />
+    <use href="#star-4" x="400" y="400" />
+    <use href="#star-3" x="1800" y="900" />
+    <use href="#star-4" x="300" y="900" />
   </g>
 
   <!-- Logo Centered -->
