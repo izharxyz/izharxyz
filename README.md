@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <br>
     <a href="https://izhar.xyz">
       <img src="logo.svg" height="500" alt="lgoo" />
