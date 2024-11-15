@@ -1,2 +1,3 @@
-<img src="tech-stack.svg" height="100" alt="stact" />
+[![Logo](logo.svg "Logo Title")](https://izhar.xyz)
 
+![Tech Stack](tech-stack.svg "Stack Title")
