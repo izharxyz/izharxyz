@@ -1,3 +1,3 @@
-[![Logo](logo.svg "Logo Title")](https://izhar.xyz)
+[![Logo](logo.svg "Visit my Portfolio")](https://izhar.xyz)
 
-![Tech Stack](tech-stack.svg "Stack Title")
+![Tech Stack](tech-stack.svg "Tech Stack")
